@@ -41,7 +41,12 @@ img {
  font-family: fantasy;
 }
 
-
 .ingredients {
  border-right: solid black;
 }
+
+@media only screen and (max-width: 576px) {
+ .container {
+  width: 100%;
+  background-color:lightcyan;
+ }
