@@ -1,12 +1,47 @@
-
 body {
  background-color: bisque;
 }
 
 h1 {
- color:chocolate;
+ color: chocolate;
+ text-align: center;
+}
+
+h2 {
+ text-align: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h5 {
+ color: crimson
 }
 
 img {
  border: solid black;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ padding: 0.2%;
+}
+
+.section {
+ padding: 0.5%;
+ text-align: center;
+ background-color: lightgrey;
+}
+
+.s6 {
+ text-align: center;
+}
+
+.tabs {
+ background-color: rgb(219, 215, 215);
+ border: black solid;
+ font-family: fantasy;
+}
+
+
+.ingredients {
+ border-right: solid black;
 }
