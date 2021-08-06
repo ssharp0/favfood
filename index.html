@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./reset.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <link rel="stylesheet" href="./style.css">
+ <title>Favorite Food</title>
+</head>
+<body>
+
+
+ <div class="container">
+  <!-- Page Content goes here -->
+  <h1>My Favorite Food!</h1>
+  <h2>Springrolls</h2>
+
+  <hr>
+  <hr>
+
+  <div class="row">
+   <div class="col s12">
+    <ul class="tabs">
+     <li class="tab col s3"><a href="">Tutorials</a></li>
+     <li class="tab col s3"><a href="">Recipe Book</a></li>
+     <li class="tab col s3"><a href="">Videos</a></li>
+     <li class="tab col s3"><a href="">More</a></li>
+    </ul>
+   </div>
+  </div>
+
+  <hr>
+  <hr>
+
+
+   <div class="row">
+    <!-- <div class="col s12">Ingredients and Picture</div> -->
+    <div class="col s6">
+     <p>
+      <strong>Ingredients:</strong>
+      <br>
+      <br>
+      <ul>
+      <li>Crispy Peanut Tofu</li>
+      <li>Shredded Cabbage</li>
+      <li>Carrots</li>
+      <li>Mint</li>
+      <li>Cilantro</li>
+      <li>Vermicelli Noodles</li>      
+      <li>Vermicelli Noodles</li>      
+      <li>(Rice Papers)</li>      
+      </ul>
+      <br>
+      Served with a spicy peanut lime dipping sauce!
+
+     </p>
+
+    </div>
+    <div class="col s6">
+      <p>
+       <strong>About:</strong>
+       <br>
+       <br>
+
+       Spring rolls are a large variety of filled appetizers in East Asian and Southeast Asian cuisine. The kind of wrapper and fillings vary. 
+
+       <br>
+       <br>
+
+       Fillings are rolled inside of rice paper and generally served cold.
+
+       <br>
+       <br>
+
+       <a href="https://en.wikipedia.org/wiki/Spring_roll">For more information about the history of spring rolls visit the Wiki page</a>
+
+      </p>
+
+    </div>
+   </div>
+
+    <img class="materialboxed" width="600" src="https://www.happyfoodstube.com/wp-content/uploads/2018/03/vegetarian-fresh-spring-rolls-image.jpg">
+
+
+
+  </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script>
+    var instance = M.Tabs.init(el, {});
+   
+    document.addEventListener('DOMContentLoaded', function () {
+     var elems = document.querySelectorAll('.materialboxed');
+     var instances = M.Materialbox.init(elems, {});
+    });
+
+ </script>
+ 
+</body>
+
+
+</html>
